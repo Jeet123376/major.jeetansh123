@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url(https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+            background-size: cover;
+            margin-left: 400px;
+            margin-top: 50px;
+    }
+        #a{
+background-color: black;
+color: whitesmoke;
+border-radius: 5px;
+border: solid cyan 2px;
+height: 90px;
+            width: 90px;
+            background-size: cover;
+            background-color: rgba(0, 0, 0, 0);
+            color: black;
+        }
+        #b{
+background-color: red;
+color: whitesmoke;
+border-radius: 5px;
+border: solid cyan 2px;
+height: 90px;
+            width: 90px;
+            color: black;
+            background-color: rgba(0, 0, 0, 0);
+            color: black;
+        }
+        #c{
+background-color: blue;
+color: whitesmoke;
+border-radius: 5px;
+border: solid cyan 2px;
+height: 90px;
+            width: 90px;
+            color: black;
+            background-color: rgba(0, 0, 0, 0);
+     
+        }
+        #d{
+            height: 70px;
+            width: 365px;
+            cursor: not-allowed;
+            background-color: rgba(0, 0, 0, 0);
+            text-align: right;
+        }
+        #a:hover,#b:hover{
+            background-color: cyan;
+            box-shadow: 5px 5px 5px black;
+            cursor: pointer;
+            transition: linear 0.5s;
+        }
+        #c:hover{
+            cursor: pointer;
+            transition: linear 0.5s;
+            background-color: whitesmoke;
+            box-shadow: 5px 5px 5px black;
+        }
+
+     
+    </style>
+</head>
+<body>
+        <input type="text" id="d" placeholder="0">
+    <table>
+        <tr>
+            <td>
+                <button id="a" onclick="takeInput(7)">7</button>
+            </td>
+            <td>
+                <button id="a" onclick="takeInput(8)">8</button>
+            </td>
+            <td>
+                <button id="a" onclick="takeInput(9)">9</button>
+            </td>
+            <td>
+                <button id="b" onclick="takeInput('+')">+</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button id="a" onclick="takeInput(4)">4</button>
+            </td>
+            <td>
+                <button id="a" onclick="takeInput(5)">5</button>
+            </td>
+            <td>
+                <button id="a" onclick="takeInput(6)">6</button>
+            </td>
+            <td>
+                <button id="b" onclick="takeInput('*')">x</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button id="a" onclick="takeInput(1)">1</button>
+            </td>
+            <td>
+                <button id="a" onclick="takeInput(2)">2</button>
+            </td>
+            <td>
+                <button id="a" onclick="takeInput(3)">3</button>
+            </td>
+            <td>
+                <button id="b" onclick="takeInput('-')">-</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button id="c" onclick="clearscreen()">C</button>
+            </td>
+            <td>
+                <button id="a" onclick="takeInput(0)">0</button>
+            </td>
+            <td>
+                <button id="c" onclick="calculateValue()">=</button>
+
+            </td>
+            <td>
+                <button id="b" onclick="takeInput('/')">/</button>
+            </td>
+        </tr>
+    </table>
+    <script>
+        // var num;
+        function takeInput(num){
+            document.getElementById("d").value = document.getElementById("d").value+num;
+        }
+        function clearscreen(){
+            document.getElementById("d").value = "";
+        }
+        function calculateValue(){
+            var expression = document.getElementById("d").value;
+            document.getElementById("d").value = eval(expression);
+        }
+
+       alert("Get outta here")
+    </script>
+</body>
+</html>
