@@ -1,0 +1,123 @@
+.coverpage{
+    height: 750px;
+    width: 1500px;
+    background-image: url("https://images.wallpapersden.com/image/download/dragon-ball-z-goku-ultra-instinct-fire_bGdnZWuUmZqaraWkpJRobWllrWdma2U.jpg");
+    background-size: cover;
+}
+.intro{
+    height: 750px;
+    width: 1500px;
+    background-color: yellow;
+    background-size: cover;
+    color: crimson;
+    text-align: center;
+    text-shadow: purple 10px 10px 10px;
+    font-size: 100px;
+}
+.content{
+    height: 750px;
+    width: 1500px;
+    background-image: url("");
+    background-color: lime;
+    background-size: cover;
+    color: crimson;
+    text-align: center;
+    text-shadow: purple 10px 10px 10px;
+    font-size: 100px;
+}
+.chapter{
+    height: 750px;
+    width: 1500px;
+    background-image: url("");
+    background-color: khaki;
+    background-size: cover;
+    color: crimson;
+    text-align: center;
+    text-shadow: purple 10px 10px 10px;
+    font-size: 100px;
+}
+.chapter{
+    height: 750px;
+    width: 1500px;
+    background-image: url("");
+    background-color: hotpink;
+    background-size: cover;
+    color: crimson;
+    text-align: center;
+    text-shadow: purple 10px 10px 10px;
+    font-size: 100px;
+}
+.chapter-1{
+    height: 750px;
+    width: 1500px;
+    background-image: url("https://i.ytimg.com/vi/Oe1-HDGoDtY/maxresdefault.jpg");
+    background-color: mediumspringgreen;
+    background-size: cover;
+    color: crimson;
+    text-align: center;
+    text-shadow: purple 10px 10px 10px;
+    font-size: 100px;
+}
+.chapter-2{
+    height: 750px;
+    width: 1500px;
+    background-image: url("https://image.freepik.com/free-vector/blue-light-sparkles-background-with-copyspace_1017-20091.jpg");
+    background-color: mediumspringgreen;
+    background-size: cover;
+    color: crimson;
+    text-align: center;
+    text-shadow: purple 10px 10px 10px;
+    font-size: 100px;
+}
+.chapter-3{
+    height: 750px;
+    width: 1500px;
+    background-image: url("https://www.wwhf.org/wp-content/uploads/2014/04/bokeh-cover-bg.jpg");
+    background-color: mediumspringgreen;
+    background-size: cover;
+    color: crimson;
+    text-align: center;
+    text-shadow: purple 10px 10px 10px;
+    font-size: 100px;
+}
+.bccover{
+    height: 750px;
+    width: 1500px;
+    background-image: url("https://wallpapercave.com/wp/IXOlSEj.jpg");
+    background-size: cover;
+    color: black;
+    text-align: left;
+    text-shadow: purple 10px 10px 10px;
+    font-size: 100px;
+    font-family: chiller;
+}
+#line{
+    height: 7px;
+    width: 1500px;
+    background-color: crimson;
+    margin-top: 15px;
+    color: crimson;
+    text-align: center;
+    text-shadow: purple 10px 10px 10px;
+    font-size: 100px;
+}
+.last{
+    height: 750px;
+    width: 1500px;
+    background-color: gold;
+    background-size: cover;
+    color: crimson;
+    text-align: center;
+    text-shadow: purple 10px 10px 10px;
+    font-size: 100px;
+}
+.more{
+    height: 750px;
+    width: 1500px;
+    background-color: greenyellow;
+    background-size: cover;
+    color: crimson;
+    text-align: center;
+    text-shadow: purple 10px 10px 10px;
+    font-size: 100px;
+}
