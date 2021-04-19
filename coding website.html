@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+.topnav{
+    display: flex;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.topnav div{
+    padding: 10px 30px 10px 30px;
+    border: 2px solid black;
+    width: 23%;
+}
+#BOX-1{
+    height: 100%;
+    width: 100%;
+background-image: url(https://images.unsplash.com/photo-1492539161849-b2b18e79c85f?ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTB8MTYzMjg5NXx8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80);
+background-size: cover;
+    position: absolute;
+    top: 42px;
+    left: 0px;
+    
+}
+#BOX-2{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://www.lawnstarter.com/blog/wp-content/uploads/2018/11/christmas-lights-bg.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 42px;
+    left: 0px;
+}
+#BOX-3{
+    height: 100%;
+    width: 100%;
+   background-image: url(https://t3.ftcdn.net/jpg/01/78/52/52/360_F_178525273_Tw0oeGifJA2NbQIYlabewTX1doyt5mHO.jpg);
+   background-size: cover;
+    position: absolute;
+    top: 42px;
+    left: 0px;
+}
+#BOX-4{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://miro.medium.com/max/15904/1*opibt_PLUhicWYsyKhBtIQ.jpeg);
+    background-size: cover;
+    position: absolute;
+    top: 42px;
+    left: 0px;
+}
+.box1,.box2,.box3,.box4{
+    text-align: center;
+    cursor: pointer;
+    font-family: cursive;
+}
+.box1{
+    background-color: red;
+}
+.box2{
+background-color: yellow;
+}
+.box3{
+background-color: cyan;
+}
+.box4{
+background-color: lime;
+}
+h1{
+    color: gold;
+    border: 2px solid yellow;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 300px;
+    background: none;
+    font-family: cursive;
+}
+h1:hover{
+    color: navy;
+    background-color: whitesmoke;
+    box-shadow: purple 2px 2px 2px 2px;
+}
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="topnav">
+        <div class="box1" onclick="showbox1()">First</div><br>
+        <div class="box2" onclick="showbox2()">SECOND</div><br>
+        <div class="box3" onclick="showbox3()">THIRD</div><br>
+        <div class="box4" onclick="showbox4()">FOURTH</div><br>
+    </div>
+    <div id="BOX-1"><h1>HELLO</h1></div>
+    <div id="BOX-2"><h1>ITS ME JEETANSH</h1></div>
+    <div id="BOX-3"><h1>WHAT'S UP</h1></div>
+    <div id="BOX-4"><h1>WELCOME TO MY WEBSITE</h1></div>
+    <script>
+        function showbox1(){
+            document.getElementById("BOX-1").style.visibility='visible';
+            document.getElementById("BOX-2").style.visibility='hidden';
+            document.getElementById("BOX-3").style.visibility='hidden';
+            document.getElementById("BOX-4").style.visibility='hidden';
+        }
+        function showbox2(){
+            document.getElementById("BOX-1").style.visibility='hidden';
+            document.getElementById("BOX-2").style.visibility='visible';
+            document.getElementById("BOX-3").style.visibility='hidden';
+            document.getElementById("BOX-4").style.visibility='hidden';
+        }
+        function showbox3(){
+            document.getElementById("BOX-1").style.visibility='hidden';
+            document.getElementById("BOX-2").style.visibility='hidden';
+            document.getElementById("BOX-3").style.visibility='visible';
+            document.getElementById("BOX-4").style.visibility='hidden';
+        }
+        function showbox4(){
+            document.getElementById("BOX-1").style.visibility='hidden';
+            document.getElementById("BOX-2").style.visibility='hidden';
+            document.getElementById("BOX-3").style.visibility='hidden';
+            document.getElementById("BOX-4").style.visibility='visible';
+        }
+        alert("WELCOME EVERYONE")
+    </script>
+</body>
+</html>
